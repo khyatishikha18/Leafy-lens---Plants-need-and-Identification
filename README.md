@@ -147,4 +147,21 @@ MAKAUT University
 
 This project is developed for educational and academic purposes.
 
+<img width="1600" height="749" alt="WhatsApp Image 2026-07-16 at 3 19 36 PM" src="https://github.com/user-attachments/assets/2eb160d3-40f7-4704-ae22-ebc664707d65" />
 
+<img width="1600" height="756" alt="WhatsApp Image 2026-07-16 at 3 20 17 PM" src="https://github.com/user-attachments/assets/d22f6345-ce8d-4725-84e1-9d1c21149018" />
+
+
+<img width="1600" height="900" alt="WhatsApp Image 2026-07-16 at 3 14 05 PM" src="https://github.com/user-attachments/assets/3047141e-8e94-432f-8553-3b8d50359df9" />
+
+<img width="1600" height="761" alt="WhatsApp Image 2026-07-16 at 3 14 29 PM" src="https://github.com/user-attachments/assets/fe198dc9-a9ad-433f-83a5-d73acb7784e8" />
+
+<img width="1600" height="759" alt="WhatsApp Image 2026-07-16 at 3 15 04 PM" src="https://github.com/user-attachments/assets/e3aa55e6-20a6-438d-b57c-54565f1582e5" />
+
+
+<img width="1600" height="766" alt="WhatsApp Image 2026-07-16 at 4 37 51 PM" src="https://github.com/user-attachments/assets/77a6a69c-3978-4e44-8aa5-cee78af613de" />
+
+<img width="1600" height="762" alt="WhatsApp Image 2026-07-16 at 4 38 35 PM" src="https://github.com/user-attachments/assets/646ef2c7-58c3-4af3-9372-de850acac3ca" />
+
+
+<img width="1600" height="764" alt="WhatsApp Image 2026-07-16 at 4 38 55 PM" src="https://github.com/user-attachments/assets/2bd946b0-1595-4509-bfbc-0cfa3d14eb93" />
