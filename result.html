@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Plant Result | Leafy Lens</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav>
+
+    <div class="logo">
+
+        🌿 Leafy Lens
+
+    </div>
+
+    <ul>
+
+        <li><a href="/home">Home</a></li>
+
+        <li><a href="/home#about">About</a></li>
+
+        <li><a href="/detect">Identify Plant</a></li>
+
+        <li><a href="/home#help">Help</a></li>
+
+        <li><a href="/home#contact">Contact</a></li>
+
+        <li><a href="/logout">Logout</a></li>
+
+    </ul>
+
+</nav>
+
+<!-- ================= RESULT PAGE ================= -->
+
+<section class="result-page">
+
+<div class="result-container">
+
+<h1 class="result-title">
+
+🌿 Plant Analysis Result
+
+</h1>
+
+<div class="result-top">
+
+<div>
+
+<img
+
+class="result-image"
+
+src="{{ url_for('static', filename='uploads/' + image) }}"
+
+alt="Plant Image">
+
+</div>
+
+<div>
+
+<table class="result-table">
+
+<tr>
+
+<th>🌱 Plant Name</th>
+
+<td>{{ plant_name }}</td>
+
+</tr>
+
+<tr>
+
+<th>🔬 Scientific Name</th>
+
+<td>{{ scientific_name }}</td>
+
+</tr>
+
+<tr>
+
+<th>📊 Confidence</th>
+
+<td>{{ confidence }}%</td>
+
+</tr>
+
+<tr>
+
+<th>💧 Water Requirement</th>
+
+<td>{{ water }}</td>
+
+</tr>
+
+<tr>
+
+<th>☀️ Sunlight</th>
+
+<td>{{ sunlight }}</td>
+
+</tr>
+
+<tr>
+
+<th>🌍 Soil Type</th>
+
+<td>{{ soil }}</td>
+
+</tr>
+
+<tr>
+
+<th>🌡️ Temperature</th>
+
+<td>{{ temperature }}</td>
+
+</tr>
+
+<tr>
+
+<th>🌿 Uses</th>
+
+<td>{{ uses }}</td>
+
+</tr>
+
+<tr>
+
+<th>❤️ Health Status</th>
+
+<td>{{ health }}</td>
+
+</tr>
+
+<tr>
+
+<th>🦠 Disease</th>
+
+<td>{{ disease }}</td>
+
+</tr>
+
+<tr>
+
+<th>💊 Treatment</th>
+
+<td>{{ treatment }}</td>
+
+</tr>
+
+<tr>
+
+<th>🌱 Care Tips</th>
+
+<td>{{ care_tips }}</td>
+
+</tr>
+
+</table>
+
+</div>
+
+</div>
+
+<!-- ================= INFORMATION CARDS ================= -->
+
+<div class="info-grid">
+
+<div class="info-card">
+
+<h3>💧 Water</h3>
+
+<p>{{ water }}</p>
+
+</div>
+
+<div class="info-card">
+
+<h3>☀️ Sunlight</h3>
+
+<p>{{ sunlight }}</p>
+
+</div>
+
+<div class="info-card">
+
+<h3>🌍 Soil</h3>
+
+<p>{{ soil }}</p>
+
+</div>
+
+<div class="info-card">
+
+<h3>🌡️ Temperature</h3>
+
+<p>{{ temperature }}</p>
+
+</div>
+
+<div class="info-card">
+
+<h3>🌿 Uses</h3>
+
+<p>{{ uses }}</p>
+
+</div>
+
+<div class="info-card">
+
+<h3>🌱 Care Tips</h3>
+
+<p>{{ care_tips }}</p>
+
+</div>
+
+<div class="info-card">
+
+<h3>❤️ Health Status</h3>
+
+<p>{{ health }}</p>
+
+</div>
+
+<div class="info-card">
+
+<h3>🦠 Disease</h3>
+
+<p>{{ disease }}</p>
+
+</div>
+
+</div>
+
+<br><br>
+<center>
+
+<a href="/detect">
+
+<button class="back-btn">
+
+🔍 Identify Another Plant
+
+</button>
+
+</a>
+
+</center>
+
+</div>
+
+</section>
+
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Identify Plant | Leafy Lens</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav>
+
+<div class="logo">
+🌿 Leafy Lens
+</div>
+
+<ul>
+
+<li><a href="/home">Home</a></li>
+
+<li><a href="/home#about">About</a></li>
+
+<li><a href="/detect">Identify Plant</a></li>
+
+<li><a href="/home#help">Help</a></li>
+
+<li><a href="/home#contact">Contact</a></li>
+
+<li><a href="/logout">Logout</a></li>
+
+</ul>
+
+</nav>
+
+<!-- ================= DETECT PAGE ================= -->
+
+<section class="detect-page">
+
+<div class="detect-card">
+
+<h1>🌿 Plant Identification</h1>
+
+<p>
+
+Upload a clear image of a plant and let us identify the plant and provide its complete requirements.
+
+</p>
+
+<form
+action="/predict"
+method="POST"
+enctype="multipart/form-data">
+
+<label class="upload-area">
+
+<input
+type="file"
+name="leaf"
+accept="image/*"
+required
+onchange="previewImage(event)">
+
+<div>
+
+<h2>📷 Upload Plant Image</h2>
+
+<p>Click here to choose an image</p>
+
+<img id="preview">
+
+</div>
+
+</label>
+
+<button type="submit">
+
+🌿 Identify Plant
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<script>
+
+function previewImage(event){
+
+const preview=document.getElementById("preview");
+
+preview.src=URL.createObjectURL(event.target.files[0]);
+
+preview.style.display="block";
+
+}
+
+</script>
+
+</body>
+
+</html>

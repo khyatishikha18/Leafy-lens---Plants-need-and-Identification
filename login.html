@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Leafy Lens | Login</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="login-page">
+
+<div class="overlay">
+
+    <div class="login-box">
+
+        <h1>Login to Leafy Lens</h1>
+
+        <form method="POST">
+
+            <label>Username</label>
+
+            <input
+            type="text"
+            name="username"
+            placeholder="Enter your username"
+            required>
+
+            <label>Password</label>
+
+            <input
+            type="password"
+            name="password"
+            placeholder="Enter your password"
+            required>
+
+            <button type="submit">
+                Login
+            </button>
+
+        </form>
+
+        <p class="signup-text">
+            Don't have an account?
+            <a href="/register">Sign up here</a>
+        </p>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
